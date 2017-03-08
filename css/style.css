@@ -1,7 +1,70 @@
+/*Table of contents
+  Universal
+
+  Typography
+
+  Header
+
+  Why
+
+  How
+
+  Who
+
+  Contact
+*/
+
+
+/*Universal*/
+
 *{
   border: 1px solid teal;
+  box-sizing: border-box;
 }
 
+body {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif;
+}
 img {
     max-width:100%
 }
+
+a {
+  color:teal;
+  text-decoration: none;
+}
+
+a:hover {
+  color:red;
+}
+
+.center {
+  text-align:center;
+}
+/*Typography*/
+
+/*Header*/
+
+/*Why*/
+
+.why {
+  background-color: #E8E8ED
+}
+
+.why img {
+  width: 65%;
+  border-radius: 100%;
+
+}
+
+/*How*/
+
+/*Who*/
+
+/*Contact*/
