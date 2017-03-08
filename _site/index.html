@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <title>Mayday Collective</title>
 
+  <!-- Gridlex <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.2.5/gridlex.min.css"> -->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.2.5/gridlex.min.css">
 <!-- This is the CSS. It is always at the bottom of the head.  -->
   <link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
@@ -25,56 +28,58 @@
 
 
 <!-- About us WHY -->
-<section id="why">
-  <p>"Why we do what we do
+<section id="why" class="grid">
+  <span class="col-6">
+  <p class="col-6">"Why we do what we do
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"</p>
-  <img src="images/tresnahead.jpg">
+  </span>
+  <span class="col-6">
+    <img src="images/tresnahead.jpg">
+  </span>
 </section>
 
 <!-- END About us WHY -->
 
 <!-- What we do and HOW -->
-<section id="what">
-<!-- TODO This section needs a grid with a div positioned over the top.  -->
+<section id="what" class="grid">
 <!-- TODO Need to add media query to this and put all 5 images in a row for mobile -->
-  <div>
+<!-- TODO add in a hover to the titles -->
+  <div class="col-12">
     <img src="images/collab.jpg">
-    <p>Strategy and Account Management</p>
+    <h3>Strategy and Account Management</h3>
   </div>
 
-  <div>
+  <div class="col-6">
     <img src="images/community.jpg">
-    <p>Community Building</p>
+    <h3>Community Building</h3>
   </div>
 
-  <div>
+  <div class="col-6">
     <img src="images/digital.jpg">
-    <p> Digital Marketing</p>
+    <h3> Digital Marketing</h3>
   </div>
 
-  <div>
+  <div class="col-6">
     <img src="images/content.jpg">
-    <p> Content Creation</p>
+    <h3> Content Creation</h3>
   </div>
 
-  <div>
+  <div class="col-6">
     <img src="images/collab.jpg">
-    <p>Collaborations</p>
+    <h3>Collaborations</h3>
   </div>
 
     <!-- END What we do and HOW -->
+</section>
 
 <!-- Who we work with -->
-<section id="who">
-  <h2>Who we work with</h2>
-  <div>
-<!-- TODO this needs a grid -->
-    <img src="/images/missfox_logo.jpg">
-    <img src="/images/missfox_logo.jpg">
-    <img src="/images/missfox_logo.jpg">
-    <img src="/images/missfox_logo.jpg">
-  </div>
-</section
+<section id="who"class="grid">
+  <h2 class="col-12">Who we work with</h2>
+    <img class="col-3" src="/images/missfox_logo.jpg">
+    <img class="col-3" src="/images/missfox_logo.jpg">
+    <img class="col-3" src="/images/missfox_logo.jpg">
+    <img class="col-3" src="/images/missfox_logo.jpg">
+</section>
 
 <!-- End who we work with -->
 
