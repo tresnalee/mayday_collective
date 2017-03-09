@@ -49,6 +49,12 @@ a:hover {
   text-align:center;
 }
 
+.flex-centre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 footer {
     background-color: #2F3F6D;
     color: #ED6B62;
@@ -60,28 +66,83 @@ footer {
 
 .intro {
   height: 100vh;
+  text-align: center;
 }
 
 .intro img {
-  width: 70vw;
+  width: 60vw;
   margin: auto;
   display: block;
 }
 
-.intro p
-
+.intro h1 {
+  padding-top: 10vh;
+}
 
 /*Why*/
+
+.why {
+min-height: 100vh;
+  text-align: center;
+}
+
 .why img {
   width: 65%;
   border-radius: 100%;
-
 }
 
 /*How*/
 
+.how {
+  min-height: 90vh;
+  text-align: center;
+  margin:5vh 5vw;
+
+}
+
+.special{
+  height: 50vh;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.special div{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.special h3{
+  color:#E2DADB;
+}
+.content {
+  background-image: url("../images/content.jpg");
+}
+
+.collab {
+  background-image: url("../images/collab.jpg");
+}
+
+.community {
+  background-image: url("../images/community.jpg");
+}
+
+.digital{
+  background-image: url("../images/digital.jpg");
+}
+
+
 /*Who*/
+.who {
+min-height: 100vh;
+  text-align: center;
+}
 
 /*Contact*/
+.contact {
+min-height: 100vh;
+  text-align: center;
+}
 
 /*Footer*/
