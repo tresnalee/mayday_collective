@@ -18,14 +18,14 @@
 /*Universal*/
 
 *{
-  border: 1px solid teal;
+  /*border: 1px solid teal;*/
   box-sizing: border-box;
 }
 
 body {
   font-size: 1.2rem;
   font-family: sans-serif;
-  color: #333;
+  color: #2F3F6D;
   background-color: #E8E8ED;
 }
 
@@ -49,10 +49,19 @@ a:hover {
   text-align:center;
 }
 
+.right{
+  text-align: right;
+}
+
 .flex-centre {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+section{
+  padding:0 5rem;
+
 }
 
 footer {
@@ -82,15 +91,25 @@ footer {
 /*Why*/
 
 .why {
-min-height: 100vh;
-  text-align: center;
+  height: 100vh;
+  text-align: left;
+  color: #2F3F6D
 }
 
-.why img {
-  width: 65%;
-  border-radius: 100%;
+.why-image {
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
 }
 
+.whydesc {
+  border: 5vh 5vw;
+
+}
+
+.whydesc p{
+  padding: 5rem;
+}
 /*How*/
 
 .how {
@@ -101,7 +120,7 @@ min-height: 100vh;
 }
 
 .special{
-  height: 50vh;
+  height: 45vh;
   background-size: cover;
   padding: 0;
   margin: 0;
@@ -144,5 +163,7 @@ min-height: 100vh;
 min-height: 100vh;
   text-align: center;
 }
+
+
 
 /*Footer*/
