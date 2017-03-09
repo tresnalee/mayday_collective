@@ -12,13 +12,15 @@
   Who
 
   Contact
+
+  digital.html
 */
 
 
 /*Universal*/
 
 *{
-  /*border: 1px solid teal;*/
+  border: 1px solid teal;
   box-sizing: border-box;
 }
 
@@ -167,3 +169,16 @@ min-height: 100vh;
 
 
 /*Footer*/
+
+/*digital html*/
+  /*Description section*/
+  .description {
+   height: 100vh;
+   text-align: left;
+ }
+
+  /*Photo section*/
+ .photos {
+  height: 100vh;
+  text-align: center;
+}
