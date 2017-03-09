@@ -26,6 +26,7 @@ body {
   font-size: 1.2rem;
   font-family: sans-serif;
   color: #333;
+  background-color: #E8E8ED;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,27 +37,41 @@ img {
 }
 
 a {
-  color:teal;
+  color:#ED6B62;
   text-decoration: none;
 }
 
 a:hover {
-  color:red;
+  color:#E8E8ED;
 }
 
 .center {
   text-align:center;
 }
+
+footer {
+    background-color: #2F3F6D;
+    color: #ED6B62;
+
+}
 /*Typography*/
 
 /*Header*/
 
-/*Why*/
-
-.why {
-  background-color: #E8E8ED
+.intro {
+  height: 100vh;
 }
 
+.intro img {
+  width: 70vw;
+  margin: auto;
+  display: block;
+}
+
+.intro p
+
+
+/*Why*/
 .why img {
   width: 65%;
   border-radius: 100%;
@@ -68,3 +83,5 @@ a:hover {
 /*Who*/
 
 /*Contact*/
+
+/*Footer*/
