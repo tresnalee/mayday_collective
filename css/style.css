@@ -58,6 +58,9 @@ section{
   padding:10vh;
 }
 
+.no-padding{
+  padding:0;
+}
 
 /*Typography*/
 
@@ -83,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro img {
   width: 60vw;
-  margin: auto;
+  margin: 10vh auto;
   display: block;
 }
 
@@ -98,8 +101,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #fff;
   background-color:#2F3F6D;
-  font-family: 'Lora', serif;
-  font-style: italic;
+  font-family: 'Josefin Sans', sans-serif;
+
 }
 
 .why-image {
@@ -108,17 +111,16 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
-.whydesc {
-  border: 5vh 5vw;
-
-}
-
 .whydesc p{
-  padding: 5rem;
+  padding: 0 10%;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
 }
+
 
 .quote {
-  font-size: 5rem;
+  font-size: 3rem;
+  color:#ED6B62;
 }
 /*How*/
 
@@ -229,11 +231,34 @@ text-align: right;
   .description {
    height: 100vh;
    text-align: left;
+}
 
- }
+.title {
+  text-align: center;
+  padding:5%;
+
+}
   /*Photo section*/
  .photos {
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
   background-color: #E2DADB;
+}
+
+/*.flex-right {
+  display: right
+  align-items: center;
+  justify-content: right;
+}
+
+.flex-left {
+  display: left
+  align-items: center;
+  justify-content: left;
+}*/
+
+/*    case studies*/
+
+.case li{
+  list-style: none;
 }
