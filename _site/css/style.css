@@ -159,10 +159,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Who*/
 .who {
-min-height: 100vh;
+  min-height: 100vh;
   text-align: center;
   background-color:#E2DADB;
 }
+
+
 
 /*Contact*/
 .contact {
@@ -224,10 +226,11 @@ text-align: right;
   .description {
    height: 100vh;
    text-align: left;
- }
 
+ }
   /*Photo section*/
  .photos {
   height: 100vh;
   text-align: center;
+  background-color: #E2DADB;
 }
