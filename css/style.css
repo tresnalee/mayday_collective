@@ -70,6 +70,7 @@ section{
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'cocogoose', sans-serif;
+  text-transform: uppercase;
 }
 
 /*Header*/
@@ -212,6 +213,10 @@ text-align: right;
 .footer-social a{
   padding:0 3%;
   font-size: 3.5rem;
+}
+
+.join {
+  text-transform: uppercase;
 }
 
 /*digital html*/
