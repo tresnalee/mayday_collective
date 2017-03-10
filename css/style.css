@@ -1,21 +1,13 @@
 /*Table of contents
   Universal
-
   Typography
-
   Header
-
   Why
-
   How
-
   Who
-
   Contact
-
   digital.html
 */
-
 
 /*Universal*/
 
@@ -24,16 +16,15 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-size: 1.2rem;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #2F3F6D;
   background-color: #E8E8ED;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: serif;
-}
+
 img {
     max-width:100%
 }
@@ -72,6 +63,17 @@ footer {
 
 }
 /*Typography*/
+
+@font-face {
+  font-family: 'cocogoose';
+  src:
+    local('cocogoose_trial'),
+    url('/fonts/cocogoose/cocogoose_trial.otf')
+    format('opentype');
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'cocogoose', sans-serif;
+}
 
 /*Header*/
 
