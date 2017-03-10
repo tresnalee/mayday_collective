@@ -12,8 +12,10 @@
 /*Universal*/
 
 *{
-  border: 1px solid teal;
+  /*border: 1px solid teal;*/
   box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
 
@@ -53,15 +55,10 @@ a:hover {
 }
 
 section{
-  padding:0 5rem;
-
+  padding:10vh;
 }
 
-footer {
-    background-color: #2F3F6D;
-    color: #ED6B62;
 
-}
 /*Typography*/
 
 @font-face {
@@ -96,8 +93,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .why {
   height: 100vh;
-  text-align: left;
-  color: #2F3F6D
+  text-align: center;
+  color: #fff;
+  background-color:#2F3F6D;
 }
 
 .why-image {
@@ -114,13 +112,15 @@ h1, h2, h3, h4, h5, h6 {
 .whydesc p{
   padding: 5rem;
 }
+
+.quote {
+  font-size: 5rem;
+}
 /*How*/
 
 .how {
   min-height: 90vh;
   text-align: center;
-  margin:5vh 5vw;
-
 }
 
 .special{
@@ -160,6 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 .who {
 min-height: 100vh;
   text-align: center;
+  background-color:#E2DADB;
 }
 
 /*Contact*/
@@ -168,9 +169,50 @@ min-height: 100vh;
   text-align: center;
 }
 
+/* ----- FORMS ---- */
+
+input,
+textarea {
+  border: 1px solid #2F3F6D;
+  padding: 0.8em;
+  font-size: 1em;
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  vertical-align: top;
+}
+textarea {
+  min-height: 7em;
+}
+input[type="submit"] {
+  width: auto;
+  display: block;
+  background-color: #ED6B62; /* featured color */
+  color: #fff;
+  border: none;
+}
+
+form [class*=col-] {
+  padding: 1%;
+}
+
 
 
 /*Footer*/
+footer {
+  background-color: #2F3F6D;
+  color: #ED6B62;
+  padding:10vh;
+}
+
+.footer-social {
+text-align: right;
+}
+
+.footer-social a{
+  padding:0 3%;
+  font-size: 3.5rem;
+}
 
 /*digital html*/
   /*Description section*/

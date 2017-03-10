@@ -5,17 +5,18 @@
   <title>Mayday Collective</title>
 
   <!-- this is the normalize css it is an alternative to reset css-->
-<like rel="stylesheet" "https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" "https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-  <!-- Gridlex <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.2.5/gridlex.min.css"> -->
-
-<!-- google fonts -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <!-- Gridlex -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.2.5/gridlex.min.css">
-<!-- This is the CSS. It is always at the bottom of the head.  -->
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- This is the CSS. It is always at the bottom of the head.  -->
   <link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
 
@@ -52,7 +53,7 @@
 <section id="why_menu" class="grid-middle why">
   <div class="col-5 why-image" style="background-image:url('images/tresnahead.jpg')"></div>
   <div class="col-7 whydesc">
-    <p><span class="quote">"</span>Why we do what we do Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="quote">"</span></p>
+    <p><span class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i></span>Why we do what we do Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span class="quote"><i class="fa fa-quote-right" aria-hidden="true"></i></span></p>
   </div>
 </section>
 
@@ -109,21 +110,26 @@
 <!-- Contact us -->
 <section id="contact_menu" class="contact">
   <h2 class> Contact Us </h2>
-  <div>
-    <img src="">
-    <!-- TODO Need to add a form here -->
-  </div>
+    <form action="https://formspree.io/tresna@tresnalee.com"
+      method="POST">
+      <input type="text" name="name" placeholder="Your Name">
+      <input type="email" name="_replyto" placeholder="Your Email">
+      <textarea type="message" name="_message" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send">
+
+    </form>
+
 </section>
 <!-- End Contact us -->
 
 <!-- Footer -->
-<footer>
+<footer class="grid-middle">
 
-  <a href="link to typeform "> Want to join the Collective? </a>
-  <a href="https://www.instagram.com/mayday_collective/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-
-  <a href="https://www.facebook.com/maydaycollective/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-
+  <a class="col" href="link to typeform "> Want to join the Collective? </a>
+  <div class="footer-social col">
+    <a href="https://www.instagram.com/mayday_collective/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/maydaycollective/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+  </div>
 
 
 </footer>
