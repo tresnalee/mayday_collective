@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 .intro {
   height: 100vh;
   text-align: center;
+  font-family: lora;
 }
 
 .intro img {
@@ -97,6 +98,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #fff;
   background-color:#2F3F6D;
+  font-family: 'Lora', serif;
+  font-style: italic;
 }
 
 .why-image {
