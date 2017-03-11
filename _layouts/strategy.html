@@ -25,17 +25,12 @@ title: Mayday Collective | Strategy
 <!-- END Header -->
 
 <!-- start photo section -->
-
-<section id="photos" class="grid-4-center photos">
+<section id="photos" class="grid center photos">
+  {% for photo in page.visuals %}
   <div class="col">
-  <img src="/images/mexican_fiesta_lants.jpg" >
+  <img src="{{photo.src_path}}">
 </div>
-  <div class="col">
-  <img src="/images/mexican_fiesta_app.jpg" >
-</div>
-  <div class="col">
-  <img src="/images/mexican_fiesta_lants.jpg" >
-  </div>
+{% endfor %}
 </section>
 
 <!-- SHOW AND TELL -->
@@ -55,8 +50,8 @@ title: Mayday Collective | Strategy
 <div class="centre grid">
   <h2 class= "col-12"> Relevant Case Studies </h2>
 
-  {% for case in site.categories [page.category] %}
-    <a class="col-6" href="{{case.url}}">{{case.title}}</a>
+  {% for post in site.categories[page.category] %}
+    <a class="col-6" href="{{case.url}}">{{post.title}}</a>
   {% endfor %}
 </div>
 </section>
