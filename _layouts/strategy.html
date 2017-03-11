@@ -36,17 +36,19 @@ title: Mayday Collective | Strategy
 
 <!-- SHOW AND TELL -->
 <section class="show">
-  <h2 class="center"> Results</h2>
+  <div class="results">
+    <h2 class="center"> Results</h2>
 {% if page.has-results == true %}
-  <p>{{page.results}}</p>
-  <div class="grid-{{page.stat-number}}">
+    <p>{{page.results}}</p>
+      <div class=" grid-{{page.stat-number}}">
     {% for stat in page.results_stats %}
-    <div class="col statbox center">
-      <h2>{{stat.stat}}</h2>
-      <h4>{{stat.text}}<h4>
-    </div>
+      <div class="col statbox center">
+    <h2>{{stat.stat}}</h2>
+    <h4>{{stat.text}}<h4>
+  </div>
     {% endfor %}
 {% endif %}
+</div>
 </div>
 <!-- CASE STUDIES -->
 <div class="center grid">

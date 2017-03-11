@@ -301,7 +301,7 @@ text-align: right;
   /*Description section*/
   .description {
    min-height: 100vh;
-   text-align: left;
+   text-align: justify;
 }
 
 .description div, .description ul{
@@ -312,7 +312,7 @@ text-align: right;
 
 .title {
   text-align: center;
-  padding:5%;
+  padding:3%;
 
 }
   /*Photo section*/
@@ -330,6 +330,7 @@ text-align: right;
 
 .show h2{
   padding-top: 1%;
+  color:#ED6B62;
 }
 .show h3{
   padding-top: 3%;
@@ -337,14 +338,19 @@ text-align: right;
 
 .show p{
   padding:5%;
+  text-align: justify;
 }
 
-.statbox{
-  border-style: solid px10 #2F3F6D;
-  padding-top: 3%
-
+.results{
+  padding:5%;
+  background-color: #2F3F6D;
+  color: #E8E8ED;
 }
 
+.statbox {
+  color:#ED6B62;
+
+}
 
 /*.flex-right {
   display: right
