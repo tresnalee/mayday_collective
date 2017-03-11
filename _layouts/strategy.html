@@ -3,7 +3,7 @@ layout: default
 title: Mayday Collective | Strategy
 ---
 <!-- Start Header -->
-<header>
+
  <h2 class="title">Strategy and Account Management</h2>
 <!-- Start description -->
 <section class="grid description">
@@ -60,7 +60,15 @@ title: Mayday Collective | Strategy
     </div>
 </section>
 <!-- End show and tell Section -->
-
+<section>
+{% if page.has-results == true %}
+  <p>{{page.results}}</p>
+  <div class="grid-{{page.stat-number}}">
+    {% for stat in page.results_stats %}
+    <div class="col">
+      <h2>{{stat.number}}</h2>
+      <h4>{{stat.text}}<h4>
+    {% endfor %}
 
 <!-- Start Footer -->
 <footer>
