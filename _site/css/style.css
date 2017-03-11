@@ -18,14 +18,12 @@
   padding:0;
 }
 
-
 body {
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
   color: #2F3F6D;
   background-color: #E8E8ED;
 }
-
 
 img {
     max-width:100%
@@ -54,11 +52,11 @@ a:hover {
   justify-content: center;
 }
 
-section{
+section {
   padding:10vh;
 }
 
-.no-padding{
+.no-padding {
   padding:0;
 }
 
@@ -74,6 +72,66 @@ section{
 h1, h2, h3, h4, h5, h6 {
   font-family: 'cocogoose', sans-serif;
   text-transform: uppercase;
+}
+
+/*Site Nav*/
+header {
+	width:100%;
+	background:#2F3F6D;
+	height:50px;
+	line-height:50px;
+}
+
+.hamburger {
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:0px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.cross {
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:0px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.menu {z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313;  position:absolute; text-align:center;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+.menu li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#fff;}
+.menu ul li a:hover {  color: #fff; text-decoration:none;}
+.menu a {text-decoration:none; color:white;}
+.menu a:hover {text-decoration:none; color:white;}
+
+.glyphicon-home {
+  color:white;
+  font-size:1.5em;
+  margin-top:5px;
+  margin:0 auto;
+}
+
+header .logo {
+  max-height 100%;
 }
 
 /*Header*/
@@ -111,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
-.whydesc p{
+.whydesc p {
   padding: 0 10%;
   line-height: 2.5rem;
   font-size: 1.6rem;
