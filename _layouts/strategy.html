@@ -4,15 +4,16 @@ title: Mayday Collective | Strategy
 ---
 <!-- Start Header -->
 
- <h2 class="title">Strategy and Account Management</h2>
+
 <!-- Start description -->
 <section class="grid description">
+   <h1 class="title col-12">Strategy and Account Management</h1>
   <div class="col">
     {{content}}
   </div>
 
 {% if page.has-bullets == true %}
-  <ul class="col-3">
+  <ul class="col-3 border-left bullet-position">
       {% for bullet in page.bullets %}
     <li> {{bullet.text}} </li>
     {% endfor %}
@@ -46,9 +47,10 @@ title: Mayday Collective | Strategy
     </div>
     {% endfor %}
 {% endif %}
+</div>
 <!-- CASE STUDIES -->
-<div class="centre grid">
-  <h2 class= "col-12"> Relevant Case Studies </h2>
+<div class="center grid">
+  <h3 class= "col-12"> Relevant Case Studies </h3>
 
   {% for post in site.categories[page.category] %}
     <a class="col-6" href="{{case.url}}">{{post.title}}</a>

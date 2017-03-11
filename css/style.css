@@ -60,6 +60,9 @@ section {
   padding:0;
 }
 
+.border-left{
+  border-left:40px solid #E8E8ED;
+}
 /*Typography*/
 
 @font-face {
@@ -137,7 +140,7 @@ header img{
 /*Header*/
 
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
   font-family: lora;
 }
@@ -155,7 +158,7 @@ header img{
 /*Why*/
 
 .why {
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
   color: #fff;
   background-color:#2F3F6D;
@@ -188,7 +191,7 @@ header img{
 }
 
 .special{
-  height: 45vh;
+  min-height: 45vh;
   background-size: cover;
   padding: 0;
   margin: 0;
@@ -297,8 +300,14 @@ text-align: right;
 /*digital html*/
   /*Description section*/
   .description {
-   height: 100vh;
+   min-height: 100vh;
    text-align: left;
+}
+
+.description div, .description ul{
+  padding:3%;
+  background-color: #236892;
+  color: #E8E8ED;
 }
 
 .title {
