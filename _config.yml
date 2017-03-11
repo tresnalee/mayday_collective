@@ -1,3 +1,12 @@
 collections:
   casestudies:
     output: true
+
+# this is where I  add the tags for each post. These tags get assigned to each page.
+categories:
+  - digital marketing
+  - influencers
+  - brand activation
+  - content
+  - coaching
+  - community building

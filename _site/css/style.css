@@ -327,6 +327,7 @@ text-align: right;
 
 /*    case studies*/
 
-.case li{
-  list-style: none;
+.show{
+  min-height: 100vh;
+
 }

@@ -7,21 +7,17 @@ title: Mayday Collective | Strategy
  <h2 class="title">Strategy and Account Management</h2>
 <!-- Start description -->
 <section class="grid description">
-  <div class="col-9">
-    <p class >So we get to the heart of your business, really understand what you’re all about, what you value and how you want to be presented in the world. Then we help you identify, attract, convert and retain your true fans, and make them feel loved-up and special.</p>
-
-    <p>We often know several people with each kind of talent, meaning we can call upon those who will be excited by your brand and the work that you’re doing. We’re big on personal and company values, so aligning the talent with the right brands means that everyone is happy!</p>
-
-    <p> We monitor their progress, provide you with easy-to-read reports and explain what’s happening at each stage of the process. You get a birds eye view, knowing that we are keeping an eye on all the little details to make sure your marketing strategy is on the right track, leaving you to work on your business, rather than in it.</p>
-
+  <div class="col">
+    {{content}}
   </div>
 
+{% if page.has-bullets == true %}
   <ul class="col-3">
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-    <li>Sugar</li>
+      {% for bullet in page.bullets %}
+    <li> {{bullet.text}} </li>
+    {% endfor %}
   </ul>
+  {% endif %}
 
 </section>
 </header>
@@ -32,45 +28,39 @@ title: Mayday Collective | Strategy
 
 <section id="photos" class="grid-4-center photos">
   <div class="col">
-  <img src="images/mexican_fiesta_lants.jpg" >
+  <img src="/images/mexican_fiesta_lants.jpg" >
 </div>
   <div class="col">
-  <img src="images/mexican_fiesta_app.jpg" >
+  <img src="/images/mexican_fiesta_app.jpg" >
 </div>
   <div class="col">
-  <img src="images/mexican_fiesta_lants.jpg" >
+  <img src="/images/mexican_fiesta_lants.jpg" >
   </div>
 </section>
 
-
-<section class="grid case center">
-      <h2 class= "col-12"> Case Studies </h2>
-      <ul class="col-6">
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-        <li>Sugar</li>
-      </ul>
-      <ul class="col-6">
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-        <li>Sugar</li>
-      </ul>
-    </div>
-</section>
-<!-- End show and tell Section -->
-<section>
+<!-- SHOW AND TELL -->
+<section class="show">
+  <h2 class="center"> Results</h2>
 {% if page.has-results == true %}
   <p>{{page.results}}</p>
   <div class="grid-{{page.stat-number}}">
     {% for stat in page.results_stats %}
     <div class="col">
-      <h2>{{stat.numberofstat}}</h2>
+      <h2>{{stat.stat#}}</h2>
       <h4>{{stat.text}}<h4>
+    </div>
     {% endfor %}
 {% endif %}
+<!-- CASE STUDIES -->
+<div class="centre grid">
+  <h2 class= "col-12"> Relevant Case Studies </h2>
+
+  {% for case in site.categories [page.category] %}
+    <a class="col-6" href="{{case.url}}">{{case.title}}</a>
+  {% endfor %}
+</div>
 </section>
+
 <!-- Start Footer -->
 <footer>
 </footer>
