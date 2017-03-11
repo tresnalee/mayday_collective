@@ -322,6 +322,30 @@ text-align: right;
   background-color: #E2DADB;
 }
 
+.show{
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.show h2{
+  padding-top: 1%;
+}
+.show h3{
+  padding-top: 3%;
+}
+
+.show p{
+  padding:5%;
+}
+
+.statbox{
+  border-style: solid px10 #2F3F6D;
+  padding-top: 3%
+
+}
+
+
 /*.flex-right {
   display: right
   align-items: center;
