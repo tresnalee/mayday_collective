@@ -7,7 +7,7 @@ title: Mayday Collective | Strategy
 
 <!-- Start description -->
 <section class="grid description">
-   <h1 class="title col-12">Strategy and Account Management</h1>
+   <h1 class="title col-12">{{page.heading}}</h1>
   <div class="col">
     {{content}}
   </div>
@@ -54,8 +54,10 @@ title: Mayday Collective | Strategy
 <div class="center grid">
   <h3 class= "col-12"> Relevant Case Studies </h3>
 
-  {% for post in site.categories[page.category] %}
-    <a class="col-6" href="{{case.url}}">{{post.title}}</a>
+  {% for case in site.casestudies %}
+    {% if case.categories == page.categories %}
+    <a class="col-6" href="{{case.url}}">{{case.title}}</a>
+    {% endif %}
   {% endfor %}
 </div>
 </section>
