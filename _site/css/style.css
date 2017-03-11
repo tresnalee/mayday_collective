@@ -158,7 +158,7 @@ header img{
 /*Why*/
 
 .why {
-  min-height: 100vh;
+  height: 100vh;
   text-align: center;
   color: #fff;
   background-color:#2F3F6D;
