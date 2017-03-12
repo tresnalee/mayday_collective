@@ -86,7 +86,7 @@ section {
   font-family: 'cocogoose';
   src:
     local('cocogoose_trial'),
-    url('/fonts/cocogoose/cocogoose_trial.otf')
+    url('/fonts/cocogoose/Cocogoose_trial.otf')
     format('opentype');
 }
 h1, h2, h3, h4, h5, h6 {
@@ -350,7 +350,7 @@ header img{
 }
 
 .contact .contact-image {
-  background-image: url(https://thumbs.dreamstime.com/z/contact-us-17037366.jpg);
+  background-image: url(/images/1702lee-039.jpg);
   background-position: center;
   background-size: cover;
   padding: 10%;
