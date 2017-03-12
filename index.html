@@ -18,8 +18,8 @@ page_class: index
 
 <!-- About us WHY -->
 <section id="why_menu" class="grid-middle why no-padding">
-  <div class="col-5 why-image" style="background-image:url('images/tresnahead.jpg')"></div>
-  <div class="col-7 whydesc">
+  <div class="col-5_sm-12 why-image" style="background-image:url('images/tresnahead.jpg')"></div>
+  <div class="col-7_sm-12 whydesc">
     <p><span class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i></span> Why we do what we do Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span class="quote"><i class="fa fa-quote-right" aria-hidden="true"></i></span></p>
   </div>
 </section>
@@ -28,15 +28,10 @@ page_class: index
 
 <!-- What we do and HOW -->
 <section id="what_menu" class="grid how">
-<!-- TODO Need to add media query to this and put all 5 images in a row for mobile -->
-<!-- TODO add in a hover to the titles -->
-  <!-- <div class="col-12 special">
-    <img src="images/olsen_nude.jpg">
-    <h3>Strategy and Account Management</h3>
-  </div> -->
-  <!-- TODO The crazy position of this thing above -->
 
-  <div class="col-6 special community">
+  {% include diamond.html %}
+
+  <div class="col-6_sm-12 special community">
     <a href="community.html">
       <div class="flex-centre">
         <h3>Community Building</h3>
@@ -44,7 +39,7 @@ page_class: index
     </a>
   </div>
 
-  <div class="col-6 special digital ">
+  <div class="col-6_sm-12 special digital ">
     <a href="digital.html">
       <div class="flex-centre">
         <h3> Digital Marketing</h3>
@@ -52,7 +47,7 @@ page_class: index
     </a>
   </div>
 
-  <div class="col-6 special content">
+  <div class="col-6_sm-12 special content">
     <a href="content.html">
       <div class="flex-centre">
         <h3>Content Creation</h3>
@@ -60,7 +55,7 @@ page_class: index
     </a>
   </div>
 
-  <div class="col-6 special collab ">
+  <div class="col-6_sm-12 special collab ">
     <a href="collab">
       <div class="flex-centre">
         <h3>Collaborations</h3>
@@ -89,9 +84,9 @@ page_class: index
 <section id="contact_menu" class="contact light-section">
   <h2 class> Contact Us </h2>
   <div class="grid">
-    <div class="col-6 contact-image">
+    <div class="col-6_sm-12 contact-image">
     </div>
-    <div class="col-6">
+    <div class="col-6_sm-12">
       <form action="https://formspree.io/tresna@tresnalee.com"
         method="POST">
         <input type="text" name="name" placeholder="Name">
