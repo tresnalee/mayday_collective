@@ -291,7 +291,7 @@ text-align: right;
   font-size: 3.5rem;
 }
 
-.join {
+footer.join {
   text-transform: uppercase;
 }
 
@@ -377,4 +377,11 @@ text-align: right;
 .show{
   min-height: 100vh;
 
+}
+
+/*Join*/
+.join {
+  padding:4%;
+  background-color: #2F3F6D;
+  color: #E8E8ED;
 }
