@@ -38,6 +38,15 @@ a:hover {
   color:#E8E8ED;
 }
 
+p {
+  line-height: 1.6;
+}
+
+li {
+  margin: 10px 0px;
+  text-align: left;
+}
+
 .center {
   text-align:center;
 }
@@ -77,13 +86,46 @@ section {
     format('opentype');
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'cocogoose', sans-serif;
+  font-family: 'cocogoose', 'Days One', sans-serif;
   text-transform: uppercase;
 }
 /*
 h1{
   text-decoration: underline;
 }*/
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 10px 0px  30px 0px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+.light-section {
+  background-color: #E8E8ED;
+}
+
+.light-section h2 {
+  color: #ED6B62;
+}
+
+.dark-section {
+  background-color: #E2DADB;
+}
+
+.dark-section h2 {
+  color: #2F3F6D;
+}
 
 /*Site Nav*/
 header {
@@ -153,14 +195,16 @@ header img{
   font-family: lora;
 }
 
+.intro h1 {
+  font-size: 2rem;
+  color: #ED6B62;
+  margin-top: 5vh;
+}
+
 .intro img {
   width: 60vw;
   margin: 10vh auto;
   display: block;
-}
-
-.intro h1 {
-  padding-top: 10vh;
 }
 
 /*Why*/
@@ -178,6 +222,10 @@ header img{
   background-size: cover;
   background-position: center center;
   min-height: 100vh;
+}
+
+.whydesc h1 {
+  font-size: 2rem;
 }
 
 .whydesc p {
@@ -238,25 +286,31 @@ header img{
   background-color:#E2DADB;
 }
 
-
-
 /*Contact*/
 .contact {
-min-height: 100vh;
+  min-height: 100vh;
   text-align: center;
+}
+
+.contact .contact-image {
+  background-image: url(https://thumbs.dreamstime.com/z/contact-us-17037366.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10%;
 }
 
 /* ----- FORMS ---- */
 
 input,
 textarea {
-  border: 1px solid #2F3F6D;
+  border: 1px solid #E2DADB;
   padding: 0.8em;
   font-size: 1em;
   display: block;
   width: 100%;
   margin: 1em auto;
   vertical-align: top;
+  border-radius: 5px;
 }
 textarea {
   min-height: 7em;
@@ -267,6 +321,7 @@ input[type="submit"] {
   background-color: #ED6B62; /* featured color */
   color: #fff;
   border: none;
+  width: 100%;
 }
 
 form [class*=col-] {
@@ -308,14 +363,13 @@ footer.join {
 /*digital html*/
   /*Description section*/
   .description {
-   min-height: 100vh;
    text-align: justify;
 }
 
 .description div, .description ul{
   padding:3%;
-  background-color: #236892;
-  color: #E8E8ED;
+  background-color: #E8E8ED;
+  color: #2F3F6D;
 }
 
 .title {
@@ -339,7 +393,13 @@ footer.join {
 .show h2{
   padding-top: 1%;
   color:#ED6B62;
+  margin: 0;
 }
+
+.show h2.stat-figure {
+  font-size: 3rem;
+}
+
 .show h3{
   padding-top: 3%;
 }
@@ -351,13 +411,19 @@ footer.join {
 
 .results{
   padding:5%;
-  background-color: #2F3F6D;
-  color: #E8E8ED;
+  color: #2F3F6D;
+}
+
+.results p {
+  text-align: center;
 }
 
 .statbox {
   color:#ED6B62;
+}
 
+.statbox h4 {
+  font-size: 1.2rem;
 }
 
 /*.flex-right {
@@ -380,8 +446,53 @@ footer.join {
 }
 
 /*Join*/
-.join {
-  padding:4%;
-  background-color: #2F3F6D;
+/* Template Page */
+.banner {
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  padding: 0;
+}
+
+.overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner .banner-content {
+  text-align: center;
+  padding-top: 12%;
+}
+
+.banner h1 {
+  color: #E2DADB;
+  font-size: 3em;
+  padding-bottom: 0;
+}
+
+.banner .subtitle {
+  font-size: 1.6em;
   color: #E8E8ED;
+}
+
+section.case-studies {
+  background-color: #E2DADB;
+}
+
+.case-study-preview .preview-image {
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.case-study-preview h3 {
+  color: #E2DADB;
+}
+
+.case-study-preview p {
+  color: #E8E8ED;
+}
+
+.case-study-preview-content {
+  padding: 40% 10%;
 }

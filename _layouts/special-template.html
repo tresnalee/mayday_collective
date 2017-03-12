@@ -1,0 +1,83 @@
+---
+layout: default
+title: Mayday Collective | Strategy
+---
+<!-- Start Header -->
+<section class="banner" style="background-image: url({{ page.image }})">
+  <div class="overlay">
+    <div class="banner-content">
+      <h1 class="title col-12">{{ page.title }}</h1>
+      <h2 class="subtitle">{{ page.subtitle }}<h2>
+    </div>
+  </div>
+</section>
+
+<!-- Start description -->
+<section class="grid description">
+  <div class="col">
+    {{content}}
+  </div>
+
+{% if page.has-bullets == true %}
+  <ul class="col-3 border-left bullet-position">
+      {% for bullet in page.bullets %}
+    <li> {{bullet.text}} </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+</section>
+</header>
+<!-- End Description -->
+<!-- END Header -->
+
+<!-- start photo section -->
+<section id="photos" class="grid center photos">
+  {% for photo in page.visuals %}
+  <div class="col">
+  <img src="{{photo.src_path}}">
+</div>
+{% endfor %}
+</section>
+
+<!-- SHOW AND TELL -->
+<section class="show">
+  <div class="results">
+    <h2 class="center"> Results</h2>
+    {% if page.has-results == true %}
+      <p>{{page.results}}</p>
+      <div class=" grid-{{page.stat-number}}">
+        {% for stat in page.results_stats %}
+          <div class="col statbox center">
+            <h2 class="stat-figure">{{stat.stat}}</h2>
+            <h4>{{stat.text}}<h4>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+<!-- CASE STUDIES -->
+<section class="center grid case-studies">
+  <h2 class= "col-12"> Relevant Case Studies </h2>
+
+  {% for case in site.casestudies %}
+    {% if case.categories == page.categories %}
+      <div class="col-4 case-study-preview">
+        <a class="" href="{{case.url}}">
+          <div class="preview-image" style="background-image: url({{ case.visuals[0].src_path }})">
+            <div class="overlay">
+              <div class="case-study-preview-content">
+                <h3>{{ case.title }}</h3>
+                <p>
+                  {{ case.snippet }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</section>
