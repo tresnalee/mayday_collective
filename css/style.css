@@ -55,6 +55,10 @@ li {
   text-align: right;
 }
 
+.justified{
+  text-align: justify;
+}
+
 .flex-centre {
   display: flex;
   align-items: center;
@@ -444,8 +448,15 @@ footer.join {
   min-height: 100vh;
 
 }
-
 /*Join*/
+h1.join{
+  font-size: 3rem;
+}
+
+.join-padding{
+  padding-right: 7vh;
+}
+
 /* Template Page */
 .banner {
   background-position: center;
