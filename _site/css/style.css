@@ -436,7 +436,6 @@ footer.join {
 }
   /*Photo section*/
  .photos {
-  min-height: 100vh;
   text-align: center;
   background-color: #E2DADB;
 }
