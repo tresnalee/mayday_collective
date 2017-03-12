@@ -1,5 +1,6 @@
 ---
 layout: strategy
+snippet: Build me some stuff
 has-bullets: true
 bullets:
   - text: Meet new people
