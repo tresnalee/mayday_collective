@@ -568,7 +568,7 @@ section.case-studies {
   line-height: 220px;
   text-align: center;
   z-index: 999;
-  color: white;
+  color: #E8E8ED;
   top: calc(50% - 110px);
   left: calc(50% - 110px);
 }
