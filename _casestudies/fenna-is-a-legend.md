@@ -1,0 +1,27 @@
+---
+title: Fenna is a legend
+image: /images/img_3601.jpg
+layout: special-template
+snippet: This is a snippet about a fake case study. All fake. All good.
+has-bullets: true
+bullets:
+  - text: Meet new people
+  - text: Make profesh website
+  - text: Increase swimming
+  - text: Build tan
+visuals:
+  - src_path: /images/img_3598.jpg
+  - src_path: /images/img_3601.jpg
+categories:
+  - influencers
+has-results: true
+results: 'Mad good times were had by all. The strategy of deep flow state ensured increased swimming, tan implementation and friend engagement. A surprising additional outcome was the benefit of healthful smoothies and vegetable-heavy lunched. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+stat-number: 3
+results_stats:
+  - stat: 2
+    text: Sites made
+  - stat: '4%'
+    text: Increase in friends
+  - stat: 26
+    text: swim sessions
+---
