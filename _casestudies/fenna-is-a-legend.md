@@ -25,4 +25,12 @@ results_stats:
 ---
 
 
-Here's a great little story.
+Once upon a time, there was a ruchi called Fenna. Her favourite food was tacos. She loved to cuddle up with dogs. Her dogs were called - Moppet and Kipper and they were the most adorable dogs in the world.
+
+&nbsp;
+
+Moppet was a scaredy-cat. She was also a fluff ball.
+
+&nbsp;
+
+&nbsp;
