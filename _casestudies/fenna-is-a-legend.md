@@ -9,7 +9,6 @@ bullets:
   - text: Super nose
   - text: Little bit crazy
 visuals:
-  - src_path: /images/img_3598.jpg
   - src_path: /images/img_3601.jpg
 categories:
   - digital marketing
