@@ -597,8 +597,8 @@ section.case-studies {
 path.outer {
   fill: #2F3F6D;
   stroke: transparent;
-  -webkit-filter: url(#dropshadow);
-  filter: url(#dropshadow);
+  /*-webkit-filter: url(#dropshadow);
+  filter: url(#dropshadow);*/
 }
 
 
