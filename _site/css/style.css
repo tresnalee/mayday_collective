@@ -50,7 +50,7 @@ li {
 }
 
 .center {
-  text-align:center;
+  text-align: center;
 }
 
 .right{
@@ -600,6 +600,7 @@ path.outer {
   -webkit-filter: url(#dropshadow);
   filter: url(#dropshadow);
 }
+
 
 path.inner {
   fill: transparent;
