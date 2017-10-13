@@ -144,7 +144,7 @@ header img{
   height:100%;
 }
 
-.hamburger {
+/*.hamburger {
   background:none;
   position:absolute;
   top:0;
@@ -159,7 +159,9 @@ header img{
   outline:none;
   z-index:10000000000000;
 }
+*/
 
+/*
 .cross {
   background:none;
   position:absolute;
@@ -175,6 +177,7 @@ header img{
   outline:none;
   z-index:10000000000000;
 }
+*/
 
 .menu {
     z-index: 1000000;
@@ -322,19 +325,19 @@ header img{
   color:#E2DADB;
 }
 .content {
-  background-image: url("../images/content.jpg");
+  background-image: url("../images/1.jpg");
 }
 
 .collab {
-  background-image: url("../images/collab.jpg");
+  background-image: url("../images/2.jpg");
 }
 
 .community {
-  background-image: url("../images/community.jpg");
+  background-image: url("../images/4.jpg");
 }
 
 .digital{
-  background-image: url("../images/digital.jpg");
+  background-image: url("../images/5.jpg");
 }
 
 
