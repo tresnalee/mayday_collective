@@ -144,7 +144,7 @@ header img{
   height:100%;
 }
 
-.hamburger {
+/*.hamburger {
   background:none;
   position:absolute;
   top:0;
@@ -158,9 +158,9 @@ header img{
   cursor:pointer;
   outline:none;
   z-index:10000000000000;
-}
+}*/
 
-.cross {
+/*.cross {
   background:none;
   position:absolute;
   top:2%;
@@ -174,7 +174,7 @@ header img{
   cursor:pointer;
   outline:none;
   z-index:10000000000000;
-}
+}*/
 
 .menu {
     z-index: 1000000;
